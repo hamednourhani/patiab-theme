@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shahrak-truck\n"
-"POT-Creation-Date: 2016-02-27 16:07+0330\n"
-"PO-Revision-Date: 2016-02-27 16:22+0330\n"
+"POT-Creation-Date: 2016-03-06 13:00+0330\n"
+"PO-Revision-Date: 2016-03-06 13:01+0330\n"
 "Last-Translator: \n"
 "Language-Team: iTstar <itstarir@gmail.com>\n"
 "Language: fa\n"
@@ -59,8 +59,8 @@ msgid "Farakaranet"
 msgstr "فراکارانت"
 
 #: footer.php:27
-msgid "truck © 2015. All Right Reserved"
-msgstr "شهرک نمایشگاه ها ©  تمامی حقوق محفوظ می باشد."
+msgid "patiab © 2015. All Right Reserved"
+msgstr "پاتیاب سازه © تمامی حقوق محفوظ می باشد."
 
 #: functions.php:94
 msgid "1000px by 250px"
@@ -351,6 +351,27 @@ msgstr "<i class=\"fa fa-link\"></i> وب سایت"
 msgid "www.example.com"
 msgstr ""
 
+#: library/patiab.php:87
+#, php-format
+msgid "Page %s"
+msgstr "صفحه  %s"
+
+#: library/patiab.php:278
+msgid "The Main Menu"
+msgstr "فهرست اصلی"
+
+#: library/patiab.php:279
+msgid "The Side Menu"
+msgstr "منوی ستون کناری "
+
+#: library/patiab.php:310
+msgid "No Related Posts Yet!"
+msgstr "هیچ مطلب مشابهی وجود ندارد"
+
+#: library/patiab.php:355
+msgid "Read "
+msgstr "ادامه "
+
 #: library/post-meta.php:11 library/post-meta.php:32
 msgid "Tags :"
 msgstr "برچسب : "
@@ -359,23 +380,5 @@ msgstr "برچسب : "
 msgid "Categories :"
 msgstr "دسته بندی : "
 
-#: library/truck.php:87
-#, php-format
-msgid "Page %s"
-msgstr "صفحه  %s"
-
-#: library/truck.php:278
-msgid "The Main Menu"
-msgstr "فهرست اصلی"
-
-#: library/truck.php:279
-msgid "The Side Menu"
-msgstr "منوی ستون کناری "
-
-#: library/truck.php:310
-msgid "No Related Posts Yet!"
-msgstr "هیچ مطلب مشابهی وجود ندارد"
-
-#: library/truck.php:355
-msgid "Read "
-msgstr "ادامه "
+#~ msgid "truck © 2015. All Right Reserved"
+#~ msgstr "شهرک نمایشگاه ها ©  تمامی حقوق محفوظ می باشد."
