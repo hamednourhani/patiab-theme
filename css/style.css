@@ -1251,7 +1251,7 @@ img.wp-smiley,
   .site-header nav.main-menu {
     width: 100%;
     position: relative;
-    background: url('../images/patiab-header-top.png?1457253950') top left repeat-x, url('../images/patiab-header-bottom.png?1457253883') bottom left repeat-x, rgba(53, 59, 122, 0.7);
+    background: url('../images/patiab-header-top.png?1457253950') top left repeat-x, url('../images/patiab-header-bottom.png?1457253883') bottom left repeat-x, rgba(53, 59, 122, 0.85);
     /*-------search form-------------------*/ }
     /* line 94, sass/layout/_header.scss */
     .site-header nav.main-menu .site-logo-contianer {
@@ -1284,7 +1284,7 @@ img.wp-smiley,
       left: 0;
       width: 100%;
       height: auto;
-      background-color: rgba(53, 59, 122, 0.7);
+      background-color: rgba(53, 59, 122, 0.85);
       z-index: 99999;
       padding: 15px;
       border-radius: 0px; }
@@ -1930,13 +1930,14 @@ ul.main-nav {
   background: url('../images/footer-back.jpg?1457260020');
   background-position: top left;
   background-repeat: no-repeat;
-  background-attachment: scroll; }
+  background-attachment: scroll;
+  background-size: cover; }
 
-/* line 9, sass/layout/_footer.scss */
+/* line 10, sass/layout/_footer.scss */
 div.footer-widget-area {
   background: url('../images/patiab-header-top.png?1457253950') top left repeat-x, url('../images/patiab-header-bottom.png?1457253883') bottom left repeat-x;
   color: #d9dbdb; }
-  /* line 14, sass/layout/_footer.scss */
+  /* line 15, sass/layout/_footer.scss */
   div.footer-widget-area .footer-col1,
   div.footer-widget-area .footer-col2,
   div.footer-widget-area .footer-col3 {
@@ -1945,7 +1946,7 @@ div.footer-widget-area {
     margin-right: 1.53846%;
     display: inline; }
     @media (min-width: 45em) {
-      /* line 14, sass/layout/_footer.scss */
+      /* line 15, sass/layout/_footer.scss */
       div.footer-widget-area .footer-col1,
       div.footer-widget-area .footer-col2,
       div.footer-widget-area .footer-col3 {
@@ -1953,49 +1954,49 @@ div.footer-widget-area {
         float: left;
         margin-right: 1.53846%; } }
   @media (min-width: 45em) {
-    /* line 23, sass/layout/_footer.scss */
+    /* line 24, sass/layout/_footer.scss */
     div.footer-widget-area .footer-col3 {
       float: right;
       margin-right: 0; } }
-  /* line 28, sass/layout/_footer.scss */
+  /* line 29, sass/layout/_footer.scss */
   div.footer-widget-area aside.widget {
     font-size: 90%;
     padding: 20px;
     margin-bottom: 20px; }
-    /* line 32, sass/layout/_footer.scss */
+    /* line 33, sass/layout/_footer.scss */
     div.footer-widget-area aside.widget menu, div.footer-widget-area aside.widget ol, div.footer-widget-area aside.widget ul {
       padding: 0px; }
-    /* line 35, sass/layout/_footer.scss */
+    /* line 36, sass/layout/_footer.scss */
     div.footer-widget-area aside.widget p, div.footer-widget-area aside.widget h4, div.footer-widget-area aside.widget h3, div.footer-widget-area aside.widget span, div.footer-widget-area aside.widget a {
       color: #b2b5b5; }
-    /* line 38, sass/layout/_footer.scss */
+    /* line 39, sass/layout/_footer.scss */
     div.footer-widget-area aside.widget .widgettitle {
       margin: 10px auto;
       padding-bottom: 10px;
       border-bottom: 2px solid #ED8E1B;
       font-size: 110%;
       color: #ED8E1B; }
-  /* line 48, sass/layout/_footer.scss */
+  /* line 49, sass/layout/_footer.scss */
   div.footer-widget-area aside.widget_contact_info_widget i:before {
     margin-right: 10px;
     vertical-align: middle;
     font-size: 130%;
     color: #ED8E1B; }
 
-/* line 58, sass/layout/_footer.scss */
+/* line 59, sass/layout/_footer.scss */
 .credit-holder {
   padding: 5px;
   text-align: center;
   min-height: 50px;
   background-color: #353B7A; }
-  /* line 65, sass/layout/_footer.scss */
+  /* line 66, sass/layout/_footer.scss */
   .credit-holder span.credit {
     display: inline-block;
     padding: 5px;
     color: #FFFFFF;
     font-size: 80%;
     color: #ED8E1B; }
-  /* line 72, sass/layout/_footer.scss */
+  /* line 73, sass/layout/_footer.scss */
   .credit-holder span.site-holder {
     display: block;
     text-align: center;
@@ -2004,14 +2005,14 @@ div.footer-widget-area {
     float: none;
     color: #ED8E1B; }
     @media (min-width: 45em) {
-      /* line 72, sass/layout/_footer.scss */
+      /* line 73, sass/layout/_footer.scss */
       .credit-holder span.site-holder {
         float: right;
         display: inline-block; } }
-    /* line 86, sass/layout/_footer.scss */
+    /* line 87, sass/layout/_footer.scss */
     .credit-holder span.site-holder a {
       color: #6e75c0; }
-      /* line 88, sass/layout/_footer.scss */
+      /* line 89, sass/layout/_footer.scss */
       .credit-holder span.site-holder a:hover {
         color: #ED8E1B; }
 
