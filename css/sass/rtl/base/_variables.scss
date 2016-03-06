@@ -50,7 +50,7 @@ $larg : 65em;
 
 /*------ colors -----------*/
 
-$orang : #f36639;
+$orang : #ED8E1B;
 
 
 $red : #FF3300;
@@ -59,6 +59,7 @@ $blue1 : #c0dbe9;
 $blue2 : #00a7d4;
 $blue3 : #0065b1;
 
+$navy : #353B7A;
 $grey3: #333333;
 $grey2 : #E6E7E7;
 $grey1 : #F2F2F2;
@@ -71,9 +72,11 @@ $black1 : #111;
 $white : #FFFFFF;
 $white2 : #F8F8F8;
 
-$glassyBlack : rgba(44, 35, 40, 0.85);
+$glassyBlack : rgba(44, 35, 40, 0.75);
 $glassyWhite : rgba(255, 255, 255, 0.85);
-$glassyOrange :rgba(243,102,57,0.85);
+$glassyOrange :rgba(237,142,27,0.85);
+$glassyNavy : rgba(53,59,122,0.7);
+
 
 /*----------------transition-shadow----------------------*/
 .def-transition{

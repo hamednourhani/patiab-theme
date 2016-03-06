@@ -71,6 +71,7 @@
 
 					<div class="contact-info-bar">
 						<span><i class="fa fa-phone"></i> 021-66935145</span>
+						<span><i class="fa fa-fax"></i> 021-66938401</span>
 						<span><i class="fa fa-envelope"></i>info@patiab.com</span>
 					</div>
 
