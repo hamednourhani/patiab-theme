@@ -1,0 +1,96 @@
+.site-footer{
+	background-color: $grey3;
+	border-top : 2px solid $orang;
+	overflow : hidden;
+	@include at-breakpoint($medium) {
+		background: image-url("footer-back.jpg");
+		background-position : top left;
+		background-repeat : no-repeat;
+		background-attachment: scroll;
+	}
+}
+div.footer-widget-area{
+
+	@include background(image-url("patiab-header-top.png") top left repeat-x,
+			image-url("patiab-header-bottom.png") bottom left repeat-x);
+	color : darken($grey2,5%);
+	.footer-col1,
+	.footer-col2,
+	.footer-col3{
+		@include span-columns(12,12);
+		@include at-breakpoint($medium) {
+			@include span-columns(4,12);
+		}
+
+	}
+	.footer-col3{
+		@include at-breakpoint($medium) {
+			@include omega;
+		}
+	}
+	aside.widget{
+		font-size : 90%;
+		padding : 20px;
+		margin-bottom : 20px;
+		menu, ol, ul {
+			padding: 0px;
+		}
+		p,h4,h3,span,a{
+			color : darken($grey2,20%);
+		}
+		.widgettitle{
+			
+			margin : 10px auto;
+			padding-bottom : 10px;
+			border-bottom : 2px solid $orang;
+			font-size: 110%;
+			color : $orang;
+		}
+	}
+	aside.widget_contact_info_widget{
+		i:before{
+		    margin-right: 10px;
+		    vertical-align: middle;
+		    font-size: 130%;
+			color:$orang;
+		    
+		}
+	}
+
+}
+.credit-holder{
+	padding : 5px;
+	text-align : center;
+	min-height : 50px;
+	background-color: $navy;
+
+
+	span.credit{
+		display: inline-block;
+		padding : 5px;
+		color : $white;
+		font-size :80%;
+		color : $orang;
+	}
+	span.site-holder{
+		
+		display: block;
+		text-align : center;
+
+		padding : 5px;
+		font-size :80%;
+		float : none;
+		color : $orang;
+		@include at-breakpoint($medium) {
+			float : right;
+				display: inline-block;
+
+		}
+		a{
+			color : lighten($navy,25%);
+			&:hover{
+				color : $orang;
+			}
+		}
+	}
+}

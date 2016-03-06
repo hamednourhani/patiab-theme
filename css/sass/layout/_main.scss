@@ -1,0 +1,375 @@
+/* main style */
+.site-content{
+	z-index: 1;
+	margin-top : 160px;
+	.banner-wrapper{
+		margin-top : 15px;
+		@include background(image-url("patiab-article-side.png") top left repeat-y,
+				$glassyWhite);
+		border-left : 3px solid $navy;
+		overflow: hidden;
+		text-align: left;
+		padding:0px;
+		.banner-inner{
+			padding:5px;
+			padding-bottom : 0px;
+		}
+		h1{
+			font-size : 1.3em;
+		}
+
+
+	}
+}
+.page-template-full-width{
+	.site-content {
+		.layout, .primary {
+			margin: 0px;
+			padding: 0px;
+			width: 100% !important;
+			height: 100%;
+			max-width: 100%;
+		}
+	}
+	article.hentry{
+		border: 0px !important;
+		background: none !important;
+		padding : 0px;
+	}
+}
+
+.page-template-intro{
+	background: image-url("blueprint-web.jpg");
+	background-position : top left;
+	background-repeat : no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	header,footer{
+		display : none;
+	}
+	.site-content {
+		margin-top : 0px;
+	}
+	.primary {
+		margin: 0px;
+		padding: 0px;
+		width: 100% !important;
+		height: 100%;
+		max-width: 100%;
+	}
+	article.hentry{
+		border: 0px !important;
+		background: none !important;
+	}
+}
+.page-template-without-sidebar {
+	.primary {
+		@include span-columns(12, 12);
+		@include at-breakpoint($medium) {
+			@include span-columns(12, 12);
+		}
+	}
+}
+
+//-------------site-content-------------------
+
+.primary{
+ 	@include span-columns(12,12);
+ 	@include at-breakpoint($medium){
+ 		@include span-columns(9,12);
+ 	}
+ 	padding:{
+		top :20px;
+		// bottom : 20px;
+	}
+
+ 	article.hentry{
+		border-left : 3px solid $navy;
+
+		@include background(image-url("patiab-article-side.png") top left repeat-y,
+				$glassyWhite);
+ 		padding : 20px 30px;
+ 		margin-bottom : 20px;
+
+ 		.article-title h3{
+ 			border-bottom : 1px solid darken($grey2,15%);
+ 			margin-bottom : 20px;
+ 			padding-bottom: 15px;
+ 		}
+ 		.article-body{
+			overflow: hidden;
+ 			.featured-image.single-image{
+ 				@include span-columns(12,12);
+			 	@include at-breakpoint($medium){
+			 		@include span-columns(4,12);
+			 	}
+ 			}
+ 			.excerpt{
+				@include span-columns(12,12);
+			 	@include at-breakpoint($medium){
+			 		@include span-columns(8 omega,12);
+			 	}
+ 			}
+ 		}
+		ul {
+			list-style-type: disc;
+		}
+		ol{
+			list-style-type: decimal;
+		}
+		ul.pharmacy-information-list{
+			list-style : none;
+			li{
+				padding : 7px;
+			}
+			i:before{
+				font-size : 120%;
+				vertical-align: center;
+				color : $orang;
+				padding-right : 7px;
+			}
+		}
+		ul.post-meta-list{
+			list-style: none;
+		}
+ 	}
+ 	
+ 	form.searchform{
+ 		margin-bottom : 20px;
+ 	}
+
+}
+.grid-excerpt{
+	font-size : 90%;
+}
+.without-sidebar .primary{
+	@include span-columns(12,12);
+ 	@include at-breakpoint($medium){
+ 		@include span-columns(12,12);
+ 	}
+}
+/*------------store locator----------------------*/
+.wpsl-direction-wrap{
+	.wpsl-directions{
+		background-color: $orang;
+		display: inline-block;
+		padding : 5px 10px;
+		color : $white;
+	}
+}
+.wpsl-direction-before{
+	a#wpsl-direction-start{
+		background-color: $orang;
+		display: inline-block;
+		padding : 5px 10px;
+		color : $white;
+	}
+}
+/*------------store locator----------------------*/
+
+.secondary{
+	@include span-columns(12,12);
+ 	@include at-breakpoint($medium){
+ 		@include span-columns(3 omega,12);
+ 	}
+	display : block;
+	
+	padding:{
+		top :20px;
+		bottom : 20px;
+	}
+	nav.side-menu{
+		h4.widgettitle{
+			margin : auto;
+			color : $orang;
+			border-bottom : 1px solid darken($grey2,5%);
+			padding : 15px  20px;
+			i.fa{
+				font-size : 140%;
+				padding-right : 5px;
+				vertical-align: middle;
+			}
+		}
+		ul.side-nav{
+			padding : 0px;
+			margin : 0px;
+		}
+		margin : 0px;
+		padding : 0px;
+		width : 100%;
+		margin-bottom : 20px;
+		font-size: 90%;
+		background-color: $grey1;
+		opacity : 0.9;
+		color : $black2;
+		border-top : 4px solid $orang;
+		z-index : 9999;
+		li{
+			position : relative;
+			width : 100%;
+			a{
+				display : inline-block;
+				width : 100%;
+				padding : 10px 20px;
+				border-bottom : 1px dashed darken($grey2,5%);
+				&:hover{
+					background-color: darken($grey1,5%);
+				}
+			}
+			&:hover > ul.sub-menu{
+				display: block;
+			}
+			img{
+				float : left;
+				margin-right : 8px;
+			}
+			&.menu-item-object-product_cat>a:after{
+				@extend .fa;
+				@include at-breakpoint($medium){
+					vertical-align : middle;
+					padding-left: 5px;
+					// width walker added
+					position: absolute;
+					content: "\f0d9";
+					left: 4px;
+					top: 18px;
+
+				}
+			}
+		}
+		ul.sub-menu{
+			padding : 0px;
+			display: block;
+			@include at-breakpoint($medium) {
+				position: absolute;
+				top: -20px;
+				right: 100%;
+				display : none;
+				background-color: $grey1;
+				color : $black2;
+				border-left : 4px solid $orang;
+				min-width : 240px;
+				max-width : 100%;
+			}
+
+
+
+		}
+	}
+	aside.widget{
+		padding : 10px 20px 20px;
+		margin-bottom : 20px;
+		font-size: 90%;
+		@include background(image-url("patiab-header-bottom.png") bottom left repeat-x,
+				$white2);
+		border-bottom : 3px solid $navy;
+		background-color: $white2;
+		opacity : 0.9;
+		color : $black2;
+		menu, ol, ul {
+			padding: 0px;
+		}
+		.widgettitle{
+			margin : 10px auto;
+			color : $orang;
+			padding-bottom : 10px;
+			border-bottom : 1px solid darken($grey2,5%);
+		}
+		&.green-widget{
+			background-color: $green;
+			border : 0px;
+			&.with-border{
+				border-top : 4px solid $blue2;
+				text-align : center;
+			}
+		}
+
+		&.orang-widget{
+			background-color: $orang;
+			border : 0px;
+		}
+		&.blue-widget{
+			background-color: $blue2;
+			border : 0px;
+		}
+		&.light-blue-widget{
+			background-color: $blue1;
+			border : 0px;
+		}
+		&.green-widget,
+		&.orang-widget,
+		&.blue-widget,
+		&.light-blue-widget{
+			p,h4,h3,span,a{
+				color : $white2;
+			}
+			.widgettitle{
+				border-color : $blue1;
+
+			}
+		}
+		a.widget-big-button{
+			@include single-transition(all, 0.4s, ease-in-out);
+			
+			padding : 10px 20px;
+			margin : 5px auto;
+			display: inline-block;
+			text-align: center;
+			background-color: $blue2;
+			@include  border-radius(5px);
+			&:hover{
+				background-color: $blue3;
+			}
+		}
+		
+		
+		input,textarea{
+			width : 100%;
+			max-width: 100%;
+			margin-bottom : 10px;
+			padding : 5px;
+		}
+		input[type="submit"],
+		input[type="button"]{
+			width : auto;
+			padding : 7px 15px;
+		}
+		p{
+			margin : auto;
+		}
+		&.widget_last_products_widget{
+			ul{
+				padding : 0px;
+			}
+			li {
+				@include single-transition(all, 0.3s, ease-in-out);
+				font-size : 90%;
+				&:hover{
+					background-color: $white;
+				}
+				a{
+					border-bottom : 1px dashed $orang;
+					width : 100%;
+					padding : 5px;
+					display: inline-block;
+				}
+				img{
+					margin-right : 10px;
+					vertical-align: middle;
+				}
+			}
+		}
+		&.widget_contact_info_widget{
+			i:before{
+				margin-right: 10px;
+				vertical-align: middle;
+				font-size: 130%;
+				color:$orang;
+
+			}
+		}
+	}
+	
+
+}
+

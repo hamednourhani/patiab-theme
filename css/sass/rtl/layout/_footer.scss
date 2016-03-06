@@ -1,0 +1,40 @@
+
+div.footer-widget-area{
+
+	.footer-col1,
+	.footer-col2,
+	.footer-col3{
+		@include span-columns(12,12);
+		@include at-breakpoint($medium) {
+			@include span-columns(4,12);
+			margin-right : 0px;
+		}
+
+	}
+	.footer-col3{
+		@include at-breakpoint($medium) {
+			@include omega;
+			margin-right : 0px;
+		}
+	}
+	aside.widget_contact_info_widget{
+		i:before{
+			margin-right: 1px;
+			margin-left: 10px;
+
+		}
+	}
+
+}
+.credit-holder{
+
+
+	span.site-holder{
+
+		@include at-breakpoint($medium) {
+			float : left;
+
+		}
+
+	}
+}

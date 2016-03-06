@@ -1,0 +1,177 @@
+
+// ---------- keyframes---------------------------------
+@include keyframes(move-up) {
+	0%   { opacity : 0;display:none; }
+	100% { opacity : 1;display :inline-block; }
+}
+@include keyframes(move-down) {
+	0%   { opacity : 1;display : inline-block; }
+	100% { opacity : 0;display : none  }
+}
+
+@include keyframes(move-slow) {
+	0%   { opacity : 1;display : inline-block; }
+	100% { opacity : 1;display : inline-block  }
+}
+
+// ---------- site-header---------------------------------
+.site-header{
+
+	div.hero{
+		.site-logo-contianer {
+			right: 0;
+			left: auto;
+			margin-left: 1px;
+			margin-right: 10px;
+		}
+		.lang-container{
+			left : 40px;
+			right : auto;
+		}
+		.contact-info-bar{
+			span {
+				i:before {
+					margin-right: 10px;
+					margin-left: 5px;
+
+				}
+			}
+		}
+	}
+	nav.main-menu{
+
+		&.scroll-to-fixed-fixed{
+			.site-logo-in-menu{
+				float : right;
+			}
+		}
+		/*-------search form-------------------*/
+		.search-form-wrapper{
+			@include at-breakpoint($medium) {
+				right : auto;
+				left : 0;
+			}
+			.search-area{
+				float : left;
+				span#submit {
+					i:before {
+						margin-left: 1px;
+						margin-right: 5px;
+
+					}
+				}
+			}
+		}
+	}
+	div.menu-icons{
+		text-align: left;
+		float : left;
+	}
+	span.menu-icon{
+		border-right: 1px solid lighten($orang,10%);
+		border-left: 0px;
+		margin-left : -3px;
+		margin-right : 0px;
+
+		&.search-icon{
+			border-left : 1px solid lighten($orang,10%);
+		}
+	}
+
+
+}
+ul.main-nav{
+	text-align : right;
+	margin-right : 0px;
+	margin-left : auto;
+
+	@include at-breakpoint($medium){
+		margin-left : auto;
+		margin-right : 120px;
+
+	}
+
+
+
+
+	&>li{
+		@include at-breakpoint($medium){
+			margin-right : 0px;
+			margin-left : -3px;
+		}
+		&.fa{
+			font-family: $BYekan;
+
+			&:before{
+				font : normal normal normal 14px/1 FontAwesome !important;
+			}
+		}
+		a{
+			@extend .def-transition;
+
+			@include at-breakpoint($medium){
+				border:{
+					left : 0px;
+					right: 1px solid saturate(lighten($orang,10%),10%);
+				}
+			}
+
+		}
+		&:last-child{
+			a{
+				border-left : 0px;
+				@include at-breakpoint($medium){
+					border-left : 1px solid saturate(lighten($orang,10%),10%);
+
+				}
+
+			}
+		}
+
+	}
+	&>li.menu-item-has-children>a:after{
+		@extend .fa;
+		@include at-breakpoint($medium){
+			padding-left: 0px;
+			padding-right: 5px;
+			// width walker added
+			right: auto;
+			left: 45%;
+		}
+	}
+	&>li>ul.sub-menu,li ul.sub-menu{
+
+		@include at-breakpoint($medium){
+			right: -30%;
+			left : auto;
+		}
+
+		li.menu-item-has-children>a:after{
+			@extend .fa;
+			@include at-breakpoint($medium){
+				left: 12px;
+				right: auto;
+			}
+		}
+	}
+
+	&>li>ul.sub-menu li ul{
+		@include at-breakpoint($medium){
+			right: 100%;
+			left : auto;
+		}
+	}
+	ul.sub-menu li:hover ul{
+		@include at-breakpoint($medium){
+			right : 100%;
+			left : auto;
+		}
+
+	}
+}
+
+
+
+
+
+

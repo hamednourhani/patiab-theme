@@ -1,0 +1,171 @@
+/* main style */
+.site-content{
+	z-index: 1;
+	.banner-wrapper{
+		margin-top : 15px;
+		border : 1px solid lighten($orang,25%);
+		background-color: $glassyWhite;
+		overflow: hidden;
+		text-align: right;
+		padding:0px;
+		.banner-inner{
+			padding:5px;
+			padding-bottom : 0px;
+		}
+		h1{
+			font-size : 1.3em;
+		}
+
+
+	}
+}
+.page-template-full-width{
+	.site-content {
+		.layout, .primary {
+			margin: 0px;
+			padding: 0px;
+			width: 100% !important;
+			height: 100%;
+			max-width: 100%;
+		}
+	}
+	article.hentry{
+		border: 0px !important;
+		background: none !important;
+		padding : 0px;
+	}
+}
+
+.page-template-intro{
+
+	header,footer{
+		display : none;
+	}
+	.primary {
+		margin: 0px;
+		padding: 0px;
+		width: 100% !important;
+		height: 100%;
+		max-width: 100%;
+	}
+	article.hentry{
+		border: 0px !important;
+		background: none !important;
+	}
+}
+.page-template-without-sidebar {
+	.primary {
+		@include span-columns(12, 12);
+		@include at-breakpoint($medium) {
+			@include span-columns(12, 12);
+		}
+	}
+}
+
+//-------------site-content-------------------
+
+.primary{
+	@include span-columns(12,12);
+	@include at-breakpoint($medium){
+		@include span-columns(9,12);
+		margin-right : auto;
+	}
+
+	article.hentry{
+		border-left : 0px;
+		border-right : 2px solid lighten($orang,15%);
+		.article-body{
+			overflow : hidden;
+			.featured-image.single-image{
+				@include span-columns(12,12);
+				@include at-breakpoint($medium){
+					@include span-columns(4,12);
+					margin-right : auto;
+				}
+			}
+			.excerpt{
+				@include span-columns(12,12);
+				@include at-breakpoint($medium){
+					@include span-columns(8 omega,12);
+					margin-right : auto;
+				}
+			}
+		}
+		ul.pharmacy-information-list{
+			i:before{
+				padding-left : 7px;
+				padding-right : 1px;
+			}
+		}
+	}
+
+
+}
+.without-sidebar .primary{
+	@include span-columns(12,12);
+	@include at-breakpoint($medium){
+		@include span-columns(12,12);
+		margin-right : auto;
+	}
+}
+/*------------store locator----------------------*/
+.secondary{
+	@include span-columns(12,12);
+	@include at-breakpoint($medium){
+		@include span-columns(3 omega,12);
+		margin-right : auto;
+	}
+
+	nav.side-menu{
+		li{
+			img{
+				float : right;
+				margin-right : auto;
+				margin-left : 8px;
+			}
+			&.menu-item-object-product_cat>a:after{
+				@extend .fa;
+				@include at-breakpoint($medium){
+					padding-right: 5px;
+					padding-left: 0px;
+					// width walker added
+					left: auto;
+					right: 4px;
+
+				}
+			}
+		}
+		ul.sub-menu{
+			@include at-breakpoint($medium) {
+				right: auto;
+				left: 100%;
+				border-right: 4px solid $orang;
+				border-left : 0px;
+			}
+
+
+
+		}
+	}
+	aside.widget{
+		&.widget_last_products_widget{
+			li {
+				img{
+					margin-left : 10px;
+					margin-right : auto;
+				}
+			}
+		}
+		&.widget_contact_info_widget{
+			i:before{
+				margin-right: auto;
+				margin-left: 10px;
+				color:$orang;
+
+			}
+		}
+	}
+
+
+}
+

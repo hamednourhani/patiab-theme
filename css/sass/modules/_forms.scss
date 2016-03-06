@@ -1,0 +1,38 @@
+/* form style */
+input#s {
+    outline: none;
+    border: 1px solid $grey2;
+    background-color: $white2;
+    padding: 7px;
+    //padding-left : 30px;
+}
+.widget{
+	 input#s{
+	 	max-width : 175px;
+	 }
+}
+.search-area{
+	input#s {
+		padding:{
+			top : 3px;
+			bottom : 3px;
+		}
+	}	
+}
+form.order-products{
+	select.select-products{
+		width : 50%;
+		min-width : 300px;
+		max-width : 100%;
+	}
+}
+.failed-message{
+	background-color: $grey1;
+	border-bottom : 3px solid $red;
+	padding : 10px;
+}
+.success-message{
+	background-color: $grey1;
+	border-bottom : 3px solid $green;
+	padding : 10px;
+}

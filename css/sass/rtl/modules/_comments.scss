@@ -1,0 +1,39 @@
+
+.comment-area{
+	.comment-metadata{
+		float : left;
+	}
+	.reply{
+		float : left;
+	}
+	.depth-1{
+		@include at-breakpoint($medium) {
+			margin-left : auto;
+			margin-right : 0;
+		}
+	}
+	.depth-2{
+		@include at-breakpoint($medium) {
+			margin-right : 20px;
+			margin-left : auto;
+		}
+	}
+	.depth-3{
+		@include at-breakpoint($medium) {
+			margin-right : 40px;
+			margin-left : auto;
+		}
+	}
+	.depth-4{
+		@include at-breakpoint($medium) {
+			margin-right: 60px;
+			margin-left : auto;
+		}
+	}
+}
+#commentform{
+	label{
+		float: right;
+	}
+
+}
