@@ -1,10 +1,9 @@
 /* theme */
 /* fonts */
 @font-face {
-  font-family: "Yekan";
-  src: url('fonts/Yekan.eot?1445920942');
-  src: url('fonts/Yekan.eot?&1445920942#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1445920942') format('truetype'), url('fonts/Yekan.woff?1445920942') format('woff');
-  font-weight: "Yekan.svg"; }
+  font-family: "BYekan";
+  src: url('fonts/BYekan.eot?1445920942');
+  src: url('fonts/BYekan.eot?&1445920942#iefix') format('embedded-opentype'), url('fonts/BYekan.ttf?1445920942') format('truetype'), url('fonts/BYekan.woff?1445920942') format('woff'); }
 /******************************************************************
 Site Name:
 Author:
@@ -179,7 +178,7 @@ body, html {
 /* line 15, sass/rtl/base/_base.scss */
 body {
   direction: rtl;
-  font-family: "Yekan";
+  font-family: "BYekan";
   font-size: 100%;
   z-index: 1; }
   /* line 21, sass/rtl/base/_base.scss */
@@ -485,7 +484,7 @@ ul.main-nav {
       margin-left: -3px; } }
   /* line 94, sass/rtl/layout/_header.scss */
   ul.main-nav > li.fa {
-    font-family: "Yekan"; }
+    font-family: "BYekan"; }
     /* line 97, sass/rtl/layout/_header.scss */
     ul.main-nav > li.fa:before {
       font: normal normal normal 14px/1 FontAwesome !important; }

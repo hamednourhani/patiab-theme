@@ -12,12 +12,6 @@
 
 				<div class="credit-holder">
 					<section class="layout">
-<!--						<ul class="socials">-->
-<!--							<li><a href="#" class="social-icon facebook"></a></li>-->
-<!--							<li><a href="#" class="social-icon instagram"></a></li>-->
-<!--							<li><a href="#" class="social-icon linkedin"></a></li>-->
-<!--							<li><a href="#" class="social-icon gplus"></a></li>-->
-<!--						</ul>-->
 						
 						<span class="site-holder">
 							<?php echo __('Designed by','patiab').'<a href="http://Karait.com">'.' '.__('Farakaranet','patiab').'</a>'; ?>
@@ -37,7 +31,7 @@
 	
 	
 
-	<!-- scrolltofixed menu -->
+
 	
 	
 		</div>
