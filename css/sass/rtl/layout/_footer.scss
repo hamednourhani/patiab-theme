@@ -25,7 +25,7 @@ div.footer-widget-area{
 
 }
 .credit-holder{
-	span.site-holder{
+	div.site-holder{
 		float : none;
 		@include at-breakpoint($medium) {
 			float : left;

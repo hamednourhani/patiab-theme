@@ -70,7 +70,7 @@ div.footer-widget-area{
 		font-size :80%;
 		color : $orang;
 	}
-	span.site-holder{
+	div.site-holder{
 		
 		display: block;
 		text-align : center;
@@ -85,9 +85,15 @@ div.footer-widget-area{
 
 		}
 		a{
-			color : lighten($navy,25%);
+			color : $orang;
 			&:hover{
 				color : $orang;
+			}
+			&.farakaranet{
+				color : $black1;
+				&:hover{
+					color : $orang;
+				}
 			}
 		}
 	}

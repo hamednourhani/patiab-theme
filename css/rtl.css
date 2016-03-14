@@ -670,11 +670,11 @@ div.footer-widget-area aside.widget_contact_info_widget i:before {
   margin-right: auto; }
 
 /* line 28, sass/rtl/layout/_footer.scss */
-.credit-holder span.site-holder {
+.credit-holder div.site-holder {
   float: none; }
   @media (min-width: 45em) {
     /* line 28, sass/rtl/layout/_footer.scss */
-    .credit-holder span.site-holder {
+    .credit-holder div.site-holder {
       float: left; } }
 
 /* button style */
