@@ -87,9 +87,10 @@
 		@extend .def-box-shadow;
 		width : 100%;
 		position : relative;
-		@include background(image-url("patiab-header-top.png") top left repeat-x,
-				image-url("patiab-header-bottom.png") bottom left repeat-x,
-				$glassyNavy);
+		@include background($glassyNavy);
+		//@include background(image-url("patiab-header-top.png") top left repeat-x,
+		//		image-url("patiab-header-bottom.png") bottom left repeat-x,
+		//		$glassyNavy);
 
 		.site-logo-contianer {
 			position: absolute;

@@ -57,7 +57,7 @@ form.order-products{
 }
 .mymail-form{
 	input {
-		color: $black1 ;
+		color: $black1 !important ;
 		padding : 5px;
 	}
 	input[type="submit"]{
