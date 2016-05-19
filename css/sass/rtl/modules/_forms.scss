@@ -2,3 +2,7 @@
 .cjfm-form form select, .cjfm-form form textarea, .cjfm-form form input[type="text"], .cjfm-form form input[type="password"], .cjfm-form form input[type="datetime"], .cjfm-form form input[type="datetime-local"], .cjfm-form form input[type="date"], .cjfm-form form input[type="month"], .cjfm-form form input[type="time"], .cjfm-form form input[type="week"], .cjfm-form form input[type="number"], .cjfm-form form input[type="email"], .cjfm-form form input[type="url"], .cjfm-form form input[type="search"], .cjfm-form form input[type="tel"], .cjfm-form form input[type="color"] {
   padding: 6px 30px !important;
 }
+.cjfm-form form .forgot-password-link {
+  float: none !important;
+  content : "کلمه عبور خود را فراموش کرده اید؟";
+}
