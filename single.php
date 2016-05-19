@@ -30,10 +30,10 @@
 									<?php get_template_part('library/post','meta'); ?>
 									
 									<!-- comments template -->
-									
-										<!-- <div class="comment-area">
-											<?php //comments_template(); ?>	
-										</div> -->
+
+										 <div class="comment-area">
+											<?php comments_template(); ?>
+										</div>
 									
 								</main>
 							</article>
