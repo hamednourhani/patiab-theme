@@ -699,6 +699,10 @@ input[type=submit], button {
 
 /* dividers style */
 /* form style */
+/* line 2, sass/rtl/modules/_forms.scss */
+.cjfm-form form select, .cjfm-form form textarea, .cjfm-form form input[type="text"], .cjfm-form form input[type="password"], .cjfm-form form input[type="datetime"], .cjfm-form form input[type="datetime-local"], .cjfm-form form input[type="date"], .cjfm-form form input[type="month"], .cjfm-form form input[type="time"], .cjfm-form form input[type="week"], .cjfm-form form input[type="number"], .cjfm-form form input[type="email"], .cjfm-form form input[type="url"], .cjfm-form form input[type="search"], .cjfm-form form input[type="tel"], .cjfm-form form input[type="color"] {
+  padding: 6px 30px !important; }
+
 /* line 4, sass/rtl/modules/_tables.scss */
 table.products_list_table tr td, table.products_list_table tr th {
   text-align: right; }
