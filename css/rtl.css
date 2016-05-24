@@ -715,36 +715,53 @@ table.products_list_table tr td, table.products_list_table tr th {
   text-align: right; }
 
 /* other style */
-/* line 3, sass/rtl/modules/_comments.scss */
+/* line 1, sass/rtl/modules/_comments.scss */
+article.comment-body {
+  padding: 10px; }
+
+/* line 5, sass/rtl/modules/_comments.scss */
 .comment-area .comment-metadata {
   float: left; }
-/* line 6, sass/rtl/modules/_comments.scss */
+/* line 8, sass/rtl/modules/_comments.scss */
+.comment-area .comment-author {
+  width: 100px;
+  float: right;
+  padding: 10px; }
+  /* line 12, sass/rtl/modules/_comments.scss */
+  .comment-area .comment-author img {
+    max-width: 100%;
+    height: auto; }
+/* line 17, sass/rtl/modules/_comments.scss */
 .comment-area .reply {
   float: left; }
 @media (min-width: 45em) {
-  /* line 9, sass/rtl/modules/_comments.scss */
+  /* line 20, sass/rtl/modules/_comments.scss */
   .comment-area .depth-1 {
     margin-left: auto;
     margin-right: 0; } }
 @media (min-width: 45em) {
-  /* line 15, sass/rtl/modules/_comments.scss */
+  /* line 26, sass/rtl/modules/_comments.scss */
   .comment-area .depth-2 {
     margin-right: 20px;
     margin-left: auto; } }
 @media (min-width: 45em) {
-  /* line 21, sass/rtl/modules/_comments.scss */
+  /* line 32, sass/rtl/modules/_comments.scss */
   .comment-area .depth-3 {
     margin-right: 40px;
     margin-left: auto; } }
 @media (min-width: 45em) {
-  /* line 27, sass/rtl/modules/_comments.scss */
+  /* line 38, sass/rtl/modules/_comments.scss */
   .comment-area .depth-4 {
     margin-right: 60px;
     margin-left: auto; } }
 
-/* line 35, sass/rtl/modules/_comments.scss */
+/* line 46, sass/rtl/modules/_comments.scss */
 #commentform label {
   float: right; }
+
+/* line 51, sass/rtl/modules/_comments.scss */
+.form-allowed-tags {
+  display: none; }
 
 /* setting style */
 /* utilities style */

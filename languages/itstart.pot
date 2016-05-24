@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: shahrack-truck 1.0\n"
+"Project-Id-Version: patiab 1.0\n"
 "Report-Msgid-Bugs-To: http://itstar.ir/contact-us\n"
-"POT-Creation-Date: 2016-02-26 07:13:16+00:00\n"
+"POT-Creation-Date: 2016-05-24 07:07:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +26,7 @@ msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr ""
 
 #: comments.php:28
-msgid "Reply<i class=\" fa fa-mail-reply\"></i>"
+msgid "Reply"
 msgstr ""
 
 #: comments.php:34
@@ -41,16 +41,12 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:23
-msgid "Designed by"
-msgstr ""
-
-#: footer.php:23
+#: footer.php:19
 msgid "Farakaranet"
 msgstr ""
 
-#: footer.php:27
-msgid "truck © 2015. All Right Reserved"
+#: footer.php:24
+msgid "patiab © 2015. All Right Reserved"
 msgstr ""
 
 #: functions.php:94
@@ -186,7 +182,7 @@ msgstr ""
 msgid "Post Category :"
 msgstr ""
 
-#: header.php:114
+#: header.php:121
 msgid "Main Menu"
 msgstr ""
 
@@ -755,6 +751,26 @@ msgstr ""
 msgid "www.example.com"
 msgstr ""
 
+#: library/patiab.php:87
+msgid "Page %s"
+msgstr ""
+
+#: library/patiab.php:278
+msgid "The Main Menu"
+msgstr ""
+
+#: library/patiab.php:279
+msgid "The Side Menu"
+msgstr ""
+
+#: library/patiab.php:310
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: library/patiab.php:355
+msgid "Read "
+msgstr ""
+
 #: library/post-meta.php:11 library/post-meta.php:32
 msgid "Tags :"
 msgstr ""
@@ -763,44 +779,16 @@ msgstr ""
 msgid "Categories :"
 msgstr ""
 
-#: library/truck.php:87
-msgid "Page %s"
-msgstr ""
-
-#: library/truck.php:278
-msgid "The Main Menu"
-msgstr ""
-
-#: library/truck.php:279
-msgid "The Side Menu"
-msgstr ""
-
-#: library/truck.php:310
-msgid "No Related Posts Yet!"
-msgstr ""
-
-#: library/truck.php:355
-msgid "Read "
-msgstr ""
-
-#: sidebar.php:7
-msgid "Products"
-msgstr ""
-
-#: sidebar.php:12
-msgid "Side Menu"
-msgstr ""
-
 #. Theme Name of the plugin/theme
-msgid "shahrack-truck"
+msgid "patiab"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://shahrack-truck.com"
+msgid "http://patiab.com"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "hermooder Portal Theme by iTstar."
+msgid "patiab Portal Theme by iTstar."
 msgstr ""
 
 #. Author of the plugin/theme

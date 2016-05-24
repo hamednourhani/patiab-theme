@@ -1,7 +1,18 @@
-
+article.comment-body{
+	padding: 10px;
+}
 .comment-area{
 	.comment-metadata{
 		float : left;
+	}
+	.comment-author{
+		width: 100px;
+		float: right;
+		padding: 10px;
+		img {
+			max-width : 100%;
+			height : auto;
+		}
 	}
 	.reply{
 		float : left;
@@ -36,4 +47,7 @@
 		float: right;
 	}
 
+}
+.form-allowed-tags{
+	display: none;
 }

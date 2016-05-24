@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: shahrak-truck\n"
-"POT-Creation-Date: 2016-03-06 13:00+0330\n"
-"PO-Revision-Date: 2016-03-14 17:05+0330\n"
+"POT-Creation-Date: 2016-05-24 11:34+0430\n"
+"PO-Revision-Date: 2016-05-24 11:35+0430\n"
 "Last-Translator: \n"
 "Language-Team: iTstar <itstarir@gmail.com>\n"
 "Language: fa\n"
@@ -35,8 +35,8 @@ msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr "%1$s دیدگاه در &ldquo;%2$s&rdquo;"
 
 #: comments.php:28
-msgid "Reply<i class=\" fa fa-mail-reply\"></i>"
-msgstr "پاسخ  <i class=\" fa fa-mail-reply\"></i>"
+msgid "Reply"
+msgstr "پاسخ"
 
 #: comments.php:34
 msgid "<i class=\"icon-left-open\"></i> Older Comments"
@@ -50,15 +50,11 @@ msgstr "دیدگاه های جدیدتر  <i class=\"icon-right-open\"></i>"
 msgid "Comments are closed."
 msgstr "دیدگاه ها بسته است."
 
-#: footer.php:23
-msgid "Designed by"
-msgstr "طراحی شده توسط"
-
-#: footer.php:23
+#: footer.php:19
 msgid "Farakaranet"
 msgstr "فراکارانت"
 
-#: footer.php:27
+#: footer.php:24
 msgid "patiab © 2015. All Right Reserved"
 msgstr "پاتیاب سازه © تمامی حقوق محفوظ می باشد."
 
@@ -196,7 +192,7 @@ msgstr "تعداد مطالب : "
 msgid "Post Category :"
 msgstr "دسته بندی : "
 
-#: header.php:120
+#: header.php:121
 msgid "Main Menu"
 msgstr "فهرست اصلی "
 
@@ -379,6 +375,12 @@ msgstr "برچسب : "
 #: library/post-meta.php:33
 msgid "Categories :"
 msgstr "دسته بندی : "
+
+#~ msgid "Reply<i class=\" fa fa-mail-reply\"></i>"
+#~ msgstr "پاسخ  <i class=\" fa fa-mail-reply\"></i>"
+
+#~ msgid "Designed by"
+#~ msgstr "طراحی شده توسط"
 
 #~ msgid "truck © 2015. All Right Reserved"
 #~ msgstr "شهرک نمایشگاه ها ©  تمامی حقوق محفوظ می باشد."

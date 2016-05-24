@@ -2105,8 +2105,7 @@ form.order-products select.select-products {
 
 /* form style */
 /* line 70, sass/modules/_forms.scss */
-input.login_form_user_login,
-input.login_form_user_pass{
+input.login_form_user_login {
   padding: 6px 30px !important; }
 
 /* table style */
@@ -2154,7 +2153,8 @@ table.products_list_table {
       vertical-align: middle; }
 /* line 25, sass/modules/_comments.scss */
 .comment-area .reply {
-  float: right; }
+  float: right;
+  margin-bottom: 15px; }
   /* line 27, sass/modules/_comments.scss */
   .comment-area .reply:before {
     content: "\f112";
