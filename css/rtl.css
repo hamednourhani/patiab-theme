@@ -707,7 +707,8 @@ input[type=submit], button {
 /* line 5, sass/rtl/modules/_forms.scss */
 .cjfm-form form .forgot-password-link {
   float: none !important;
-  content: "کلمه عبور خود را فراموش کرده اید؟"; }
+  content: "کلمه عبور خود را فراموش کرده اید؟";
+  color: #0065b1; }
 
 /* line 4, sass/rtl/modules/_tables.scss */
 table.products_list_table tr td, table.products_list_table tr th {
